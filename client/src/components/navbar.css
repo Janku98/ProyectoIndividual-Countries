@@ -1,0 +1,21 @@
+.navbar{
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: darkgray;
+    
+}
+.rutas:hover{
+    color: #ffee10;
+  
+  text-shadow: 0 0 5px #ffee10;
+}
+.rutas:hover::before{
+    transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+.rutas{
+    cursor: pointer;
+}
+

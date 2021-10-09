@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.paginadoYpaises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listapaises{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.filtros{
+    display: flex;
+    color: darkgray;
+}
